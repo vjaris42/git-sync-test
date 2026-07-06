@@ -1,13 +1,13 @@
 {
-  "id": "d573143c-a5f4-4aaf-8534-573ab51ac26f",
-  "name": "FOLDER-1-app",
+  "id": "5cbfb5dd-924c-4bb5-975d-1ec233f62fab",
+  "name": "folder-1-app",
   "type": "front-end",
-  "slug": "404d2a41-b17c-4bcf-b76f-5d6ad6714b0d",
+  "slug": "dcacf5fa-04ff-4015-a0ce-f2fec18f0431",
   "isPublic": false,
   "isMaintenanceOn": false,
   "__loaded": true,
   "aiGenerationMetadata": null,
   "appBuilderMode": "visual",
-  "icon": "draghandle",
+  "icon": "sentfast",
   "tooljetVersion": "3.21.48-beta-ee"
 }

@@ -6,5 +6,9 @@
   "d573143c-a5f4-4aaf-8534-573ab51ac26f": {
     "appPath": "apps/FOLDER-1/FOLDER-1-app",
     "updatedAt": "2026-07-06T05:31:40.940Z"
+  },
+  "5cbfb5dd-924c-4bb5-975d-1ec233f62fab": {
+    "appPath": "apps/folder-1/folder-1-app",
+    "updatedAt": "2026-07-06T05:51:16.134Z"
   }
 }
