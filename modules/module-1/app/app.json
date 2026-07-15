@@ -1,0 +1,13 @@
+{
+  "id": "8157391e-6c77-4ad6-a4f5-d40591148b05",
+  "name": "module-1",
+  "type": "module",
+  "slug": "f63aa2f8-3979-42ae-94bb-f26328724c59",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "folderupload",
+  "tooljetVersion": "3.21.51-beta-ee"
+}
