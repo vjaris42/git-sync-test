@@ -1,0 +1,13 @@
+{
+  "id": "b3dc926d-c5d0-4f07-9a05-22ee06fcde79",
+  "name": "app-4",
+  "type": "front-end",
+  "slug": "02b43517-b85e-44cb-92e1-6bcf42f927ac",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "globe",
+  "tooljetVersion": "3.21.52-beta-ee"
+}
