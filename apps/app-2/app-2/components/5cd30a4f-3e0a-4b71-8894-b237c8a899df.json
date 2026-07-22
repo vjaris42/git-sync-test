@@ -6,7 +6,7 @@
   "parent": null,
   "properties": {
     "text": {
-      "value": "Button2"
+      "value": "Button3"
     },
     "visibility": {
       "value": "{{true}}"
