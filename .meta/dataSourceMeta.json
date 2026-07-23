@@ -1,0 +1,9 @@
+{
+  "a88e7ad0-4f42-45f5-b2e0-c2c7c3a77cd0": {
+    "name": "postgresql",
+    "kind": "postgresql",
+    "updatedAt": "2026-07-23T09:43:56.030Z",
+    "contentHash": "b11e85e61655a1bfdc8c6795d7586fc521749bd52a17d4db420051c5ac1d6dfc"
+  },
+  "lastUpdatedAt": "2026-07-23T09:43:56.030Z"
+}
