@@ -5,5 +5,11 @@
     "updatedAt": "2026-07-23T09:43:56.030Z",
     "contentHash": "b11e85e61655a1bfdc8c6795d7586fc521749bd52a17d4db420051c5ac1d6dfc"
   },
-  "lastUpdatedAt": "2026-07-23T09:43:56.030Z"
+  "e279ee93-0ac1-4656-9d3d-101cbae11a12": {
+    "name": "mongodb",
+    "kind": "mongodb",
+    "updatedAt": "2026-07-23T09:53:21.227Z",
+    "contentHash": "862142a6817fda519508c084bec9b512d4095571ab710f1342f3b74f73419205"
+  },
+  "lastUpdatedAt": "2026-07-23T09:53:21.227Z"
 }
