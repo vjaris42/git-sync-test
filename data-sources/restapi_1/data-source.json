@@ -82,7 +82,7 @@
       "retry_network_errors": true,
       "scopes": "read, write",
       "ssl_certificate": "none",
-      "url": "https://jsonplaceholder.typicode.com/posts",
+      "url": "https://jsonplaceholder.typicode.com/users",
       "username": ""
     },
     "staging": {
@@ -123,7 +123,7 @@
       "retry_network_errors": true,
       "scopes": "read, write",
       "ssl_certificate": "none",
-      "url": "https://jsonplaceholder.typicode.com/posts",
+      "url": "https://jsonplaceholder.typicode.com/albums",
       "username": ""
     }
   },
