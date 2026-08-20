@@ -1,7 +1,7 @@
 {
-  "id": "6a892ec2-71d8-44a4-a022-ebf23c268259",
+  "id": "a5856a28-2bac-48da-aa40-b55435d96fa0",
   "kind": "restapi",
-  "name": "restapi_1",
+  "name": "JSON data",
   "options": {
     "development": {
       "access_token_custom_headers": [
@@ -82,7 +82,7 @@
       "retry_network_errors": true,
       "scopes": "read, write",
       "ssl_certificate": "none",
-      "url": "https://jsonplaceholder.typicode.com/posts",
+      "url": "https://jsonplaceholder.typicode.com/users",
       "username": ""
     },
     "staging": {
@@ -123,7 +123,7 @@
       "retry_network_errors": true,
       "scopes": "read, write",
       "ssl_certificate": "none",
-      "url": "https://jsonplaceholder.typicode.com/posts",
+      "url": "https://jsonplaceholder.typicode.com/albums",
       "username": ""
     }
   },
