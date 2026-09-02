@@ -1,0 +1,121 @@
+{
+  "id": "92341819-14f4-4550-b4a2-9488ac9c8b3f",
+  "name": "cocUpdateConfigStatus",
+  "options": {
+    "url": "{{parameters.apiHost || parameters.api_base_url}}/v1/coc/configs/{{parameters.configVersionId}}",
+    "body": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "method": "put",
+    "cookies": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "headers": [
+      [
+        "Content-Type",
+        "application/json"
+      ],
+      [
+        "X-CoC-Request-ID",
+        "{{parameters.requestId}}"
+      ],
+      [
+        "X-CoC-Actor-ID",
+        "{{parameters.actorId}}"
+      ],
+      [
+        "X-CoC-Actor-Role",
+        "{{parameters.actorRole}}"
+      ],
+      [
+        "X-CoC-Domain-ID",
+        "{{parameters.domainId}}"
+      ],
+      [
+        "porter-flash-id",
+        "pcoc"
+      ],
+      [
+        "porter-flash-partner-plat-web",
+        "pcoc"
+      ],
+      [
+        "",
+        ""
+      ],
+      [
+        "porter-country",
+        "india"
+      ],
+      [
+        "porter-timezone",
+        "Asia/Kolkata"
+      ]
+    ],
+    "rawBody": "{\"status\": \"{{parameters.status}}\", \"comment\": \"{{parameters.comment || ''}}\"}",
+    "jsonBody": null,
+    "urlParams": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "bodyToggle": false,
+    "parameters": [
+      {
+        "name": "configVersionId",
+        "defaultValue": ""
+      },
+      {
+        "name": "requestId",
+        "defaultValue": ""
+      },
+      {
+        "name": "actorId",
+        "defaultValue": ""
+      },
+      {
+        "name": "domainId",
+        "defaultValue": ""
+      },
+      {
+        "name": "status",
+        "defaultValue": "APPROVED"
+      },
+      {
+        "name": "comment",
+        "defaultValue": ""
+      },
+      {
+        "name": "actorRole",
+        "defaultValue": "CHECKER"
+      },
+      {
+        "name": "apiHost",
+        "defaultValue": ""
+      },
+      {
+        "name": "api_base_url",
+        "defaultValue": ""
+      }
+    ],
+    "arrayValuesChanged": true,
+    "retryNetworkErrors": null,
+    "confirmationMessage": "",
+    "enableTransformation": false,
+    "transformationLanguage": "javascript",
+    "showSuccessNotification": false,
+    "body_toggle": true,
+    "raw_body": "{\"status\": \"{{parameters.status}}\", \"comment\": \"{{parameters.comment || ''}}\"}"
+  },
+  "dataSourceId": "b03cbc0b-3afa-4836-bdc6-bf5b2f5c16f7",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "restapi",
+  "dataSourceType": "static"
+}

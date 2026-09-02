@@ -1,0 +1,68 @@
+{
+  "id": "5f65d4cf-f942-4f64-97e2-744f2d8dd305",
+  "name": "DomainFilter",
+  "type": "DropDown",
+  "pageId": "27fa7e05-fa25-4dfe-898e-7a39a1d5a32e",
+  "parent": "32026bfe-0c23-4cfe-a145-a4c9963d7986",
+  "properties": {
+    "advanced": {
+      "value": "{{false}}"
+    },
+    "label": {
+      "value": "Domain"
+    },
+    "values": {
+      "value": "{{queries.loadDomains.data || []}}"
+    },
+    "display_values": {
+      "value": "{{queries.loadDomains.data || []}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "placeholder": {
+      "value": "All domains"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "value": {
+      "value": ""
+    }
+  },
+  "general": {},
+  "styles": {
+    "borderRadius": {
+      "value": "8"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": null,
+  "validation": {},
+  "layouts": [
+    {
+      "id": "f165fdcc-b58f-408d-9313-ad82d37bc63f",
+      "type": "desktop",
+      "top": 70,
+      "left": 0,
+      "width": 22,
+      "height": 50,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5f65d4cf-f942-4f64-97e2-744f2d8dd305",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "a36eac4f-6883-405a-98d6-568a293fe899",
+      "type": "mobile",
+      "top": 70,
+      "left": 0,
+      "width": 43,
+      "height": 50,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5f65d4cf-f942-4f64-97e2-744f2d8dd305",
+      "dimensionUnit": "count"
+    }
+  ]
+}

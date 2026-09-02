@@ -1,0 +1,79 @@
+{
+  "id": "ad7a3eb3-5aa9-4c2e-b7a6-3b64a14415ce",
+  "name": "fetchVersionsByGroupId",
+  "options": {
+    "url": "{{variables.api_endpoint_base}}/v1/coc/configs/group/{{parameters.configGroupId}}/versions?include_payload=true&versionCount=50",
+    "body": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "method": "get",
+    "cookies": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "headers": [
+      [
+        "X-CoC-Request-ID",
+        "b68052fd-4202-451a-82d3-12bf92d3fc13"
+      ],
+      [
+        "X-CoC-Actor-ID",
+        "viewer@porter.in"
+      ],
+      [
+        "X-CoC-Actor-Role",
+        "VIEWER"
+      ],
+      [
+        "X-CoC-Domain-ID",
+        "{{variables.cr_domain_id || \"partner-platform\"}}"
+      ],
+      [
+        "porter-flash-id",
+        "pcoc"
+      ],
+      [
+        "porter-flash-partner-plat-web",
+        "pcoc"
+      ],
+      [
+        "porter-country",
+        "india"
+      ],
+      [
+        "porter-timezone",
+        "Asia/Kolkata"
+      ]
+    ],
+    "rawBody": null,
+    "jsonBody": null,
+    "urlParams": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "bodyToggle": false,
+    "parameters": [
+      {
+        "name": "configGroupId",
+        "defaultValue": ""
+      }
+    ],
+    "arrayValuesChanged": true,
+    "retryNetworkErrors": null,
+    "confirmationMessage": "",
+    "enableTransformation": false,
+    "transformationLanguage": "javascript",
+    "showSuccessNotification": false
+  },
+  "dataSourceId": "b03cbc0b-3afa-4836-bdc6-bf5b2f5c16f7",
+  "appVersionId": "77ecd672-c7d9-427e-8756-1676e2c77e95",
+  "kind": "restapi",
+  "dataSourceType": "static"
+}
